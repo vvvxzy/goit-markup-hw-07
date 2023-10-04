@@ -5,10 +5,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .link {
-  color: brown;
+  color: rgb(175, 21, 21);
 }
 .link:hover {
-  color: aqua;
+  color: rgb(121, 22, 138);
 }
 .link:active {
   color: blueviolet;
