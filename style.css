@@ -1,19 +1,23 @@
-font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif;
-
-body {
+fonty {
+  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-.link {
+
+body:root {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.link:root {
   color: rgb(175, 21, 21);
 }
-.link:hover {
+.link:hover:root {
   color: rgb(121, 22, 138);
 }
-.link:active {
+.link:active:root {
   color: blueviolet;
 }
-.link {
+.link:root {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -22,7 +26,7 @@ body {
   text-align: left;
 }
 
-.header-advantages {
+.header-advantages:root {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -30,7 +34,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
-p {
+p:root {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -38,7 +42,7 @@ p {
   letter-spacing: 0.02em;
   text-align: left;
 }
-h1 {
+h1:root {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
@@ -46,7 +50,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.header-uper-photos {
+.header-uper-photos:root {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -54,7 +58,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.name-index {
+.name-index:root {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -62,7 +66,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.button-text-porfolio {
+.button-text-porfolio:root {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -70,7 +74,7 @@ h1 {
   letter-spacing: 0.04em;
   text-align: center;
 }
-.header-photo-portfolio {
+.header-photo-portfolio:root {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -78,7 +82,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.text-under-header-portfolio {
+.text-under-header-portfolio:root {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -87,7 +91,7 @@ h1 {
   text-align: left;
 }
 
-.logo {
+.logo:root {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -96,6 +100,6 @@ h1 {
   text-align: left;
   color: #4d5ae5;
 }
-.logo-second-part {
+.logo-second-part:root {
   color: #2e2f42;
 }
