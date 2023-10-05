@@ -104,3 +104,27 @@ h1 {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
 }
+.solution-background {
+  background-color: #2e2f42;
+}
+h1 {
+  color: white;
+}
+.solution-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.solution-button:hover {
+  cursor: pointer;
+  color: #404bbf;
+}
+.solution-button:active {
+  color: #404bbf;
+}
