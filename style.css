@@ -3,21 +3,21 @@ fonty {
   font-family: "Roboto", sans-serif;
 }
 
-body:root {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-.link:root {
+.link {
   color: rgb(175, 21, 21);
 }
-.link:hover:root {
+.link:hover {
   color: rgb(121, 22, 138);
 }
-.link:active:root {
+.link:active {
   color: blueviolet;
 }
-.link:root {
+.link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -26,7 +26,7 @@ body:root {
   text-align: left;
 }
 
-.header-advantages:root {
+.header-advantages {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -34,7 +34,7 @@ body:root {
   letter-spacing: 0.02em;
   text-align: left;
 }
-p:root {
+p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -42,7 +42,7 @@ p:root {
   letter-spacing: 0.02em;
   text-align: left;
 }
-h1:root {
+h1 {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
@@ -50,7 +50,7 @@ h1:root {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.header-uper-photos:root {
+.header-uper-photos {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -58,7 +58,7 @@ h1:root {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.name-index:root {
+.name-index {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -66,7 +66,7 @@ h1:root {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.button-text-porfolio:root {
+.button-text-porfolio {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -74,7 +74,7 @@ h1:root {
   letter-spacing: 0.04em;
   text-align: center;
 }
-.header-photo-portfolio:root {
+.header-photo-portfolio {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -82,7 +82,7 @@ h1:root {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.text-under-header-portfolio:root {
+.text-under-header-portfolio {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -91,7 +91,7 @@ h1:root {
   text-align: left;
 }
 
-.logo:root {
+.logo {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -100,6 +100,6 @@ h1:root {
   text-align: left;
   color: #4d5ae5;
 }
-.logo-second-part:root {
+.logo-second-part {
   color: #2e2f42;
 }
