@@ -92,7 +92,7 @@ h1 {
 }
 
 .logo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
@@ -101,5 +101,6 @@ h1 {
   color: #4d5ae5;
 }
 .logo-second-part {
+  font-family: "Raleway", sans-serif;
   color: #2e2f42;
 }
