@@ -109,6 +109,7 @@ h1 {
 }
 h1 {
   color: white;
+  line-height: 1.07;
 }
 .solution-button {
   font-family: "Roboto", sans-serif;
@@ -138,4 +139,10 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+.link-header:hover {
+  color: #404bbf;
+}
+.link-header:active {
+  color: #404bbf;
 }
