@@ -8,7 +8,8 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.link {
+.link { 
+  text-decoration: none;
   color: #434455;
 ;
 }
@@ -107,6 +108,7 @@ h1 {
   letter-spacing: 0.03em;
   text-align: left;
   color: #4d5ae5;
+  text-decoration: none;
 }
 .logo-second-part {
   font-family: "Raleway", sans-serif;
@@ -147,6 +149,7 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
 }
 .link-header:hover {
   color: #404bbf;
@@ -205,6 +208,13 @@ border: 1px
 
 }
 .logo-second-part-footer{
+  font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+
   color: #ffffff;
 }
 .footer-text{
