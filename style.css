@@ -187,10 +187,10 @@ border: 1px
 .portfolio-desing-button {
   color: #4D5AE5;
   background-color: #F4F4FD;
-  width: Hug (101px)
+  border-radius: 4px;
+width: Hug (101px)
 height: Hug (48px)
 padding: 12px, 24px, 12px, 24px
-border-radius: 4px
 border: 1px
 
 
