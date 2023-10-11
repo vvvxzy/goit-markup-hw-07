@@ -115,6 +115,7 @@ h1 {
   text-align: left;
   color: #4d5ae5;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .logo-second-part {
   font-family: "Raleway", sans-serif;
@@ -164,10 +165,10 @@ h1 {
   color: #404bbf;
 }
 .portfolio-all-button {
-  
+  list-style: none;
+  text-decoration: none;
   color: #ffffff;
   background-color:  #404BBF;
-;
  width: Hug (69px)
 height: Hug (48px)
 padding: 12px, 24px, 12px, 24px
@@ -189,6 +190,8 @@ border-radius: 4px
   color: #ffffff;
 }
 .portfolio-web-button {
+   list-style: none;
+  text-decoration: none;
   color: #4D5AE5;
   background-color: #F4F4FD;
   width: Hug (116px)
@@ -202,6 +205,8 @@ border: 1px
   color: #ffffff;
 }
 .portfolio-app-button {
+   list-style: none;
+  text-decoration: none;
   color: #4D5AE5;
   background-color: #F4F4FD;
   width: Hug (78px)
@@ -220,6 +225,8 @@ border: 1px
 }
 
 .portfolio-desing-button {
+   list-style: none;
+  text-decoration: none;
   color: #4D5AE5;
   background-color: #F4F4FD;
   border-radius: 4px;
@@ -235,7 +242,10 @@ border: 1px
   background-color: #404BBF;
   color: #ffffff;
 }
-.portfolio-marketing-button {color: #4D5AE5;
+.portfolio-marketing-button {
+   list-style: none;
+  text-decoration: none; 
+  color: #4D5AE5;
   background-color: #F4F4FD;
 width: Hug (126px)
 height: Hug (48px)
@@ -252,6 +262,7 @@ border: 1px
   color: #ffffff;
 } 
 .logo-second-part-footer{
+  
   font-family: "Roboto", sans-serif;
 font-size: 18px;
 font-weight: 800;
