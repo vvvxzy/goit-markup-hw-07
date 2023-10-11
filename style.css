@@ -9,7 +9,8 @@ body {
   background-color: #ffffff;
 }
 .link {
-  color: rgb(175, 21, 21);
+  color: #434455;
+;
 }
 .link:hover {
   color: rgb(121, 22, 138);
@@ -73,8 +74,13 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
+  
+
+
+;
 }
 .header-photo-portfolio {
+  color: #2E2F42;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -89,6 +95,8 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color:  #434455;
+;
 }
 
 .logo {
@@ -145,4 +153,63 @@ h1 {
 }
 .link-header:active {
   color: #404bbf;
+}
+.portfolio-all-button {
+  color: #4D5AE5;
+  background-color:  #404BBF;
+;
+ width: Hug (69px)
+height: Hug (48px)
+padding: 12px, 24px, 12px, 24px
+border-radius: 4px
+
+}
+.portfolio-web-button {
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+  width: Hug (116px)
+height: Hug (48px)
+padding: 12px, 24px, 12px, 24px
+border-radius: 4px
+border: 1px
+
+}
+.portfolio-app-button {
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+  width: Hug (78px)
+height: Hug (48px)
+padding: 12px, 24px, 12px, 24px
+border-radius: 4px
+border: 1px
+
+}
+.portfolio-desing-button {
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+  width: Hug (101px)
+height: Hug (48px)
+padding: 12px, 24px, 12px, 24px
+border-radius: 4px
+border: 1px
+
+
+}
+.portfolio-marketing-button {color: #4D5AE5;
+  background-color: #F4F4FD;
+width: Hug (126px)
+height: Hug (48px)
+padding: 12px, 24px, 12px, 24px
+border-radius: 4px
+border: 1px
+
+}
+.logo-second-part-footer{
+  color: #ffffff;
+}
+.footer-text{
+  color: #F4F4FD;
+
+}
+footer{background: #2E2F42;
 }
