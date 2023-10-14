@@ -8,10 +8,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.link { 
+.link {
   text-decoration: none;
   color: #434455;
-;
 }
 .link:hover {
   color: rgb(121, 22, 138);
@@ -63,7 +62,7 @@ h1 {
   text-align: center;
   line-height: 1.11;
   text-transform: capitalize;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 .name-index {
   font-family: "Roboto", sans-serif;
@@ -75,7 +74,7 @@ h1 {
 }
 
 .header-photo-portfolio {
-  color: #2E2F42;
+  color: #2e2f42;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -90,8 +89,7 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  color:  #434455;
-;
+  color: #434455;
 }
 
 .logo {
@@ -100,6 +98,7 @@ h1 {
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.03em;
+  line-height: 1.17;
   text-align: left;
   color: #4d5ae5;
   text-decoration: none;
@@ -146,110 +145,95 @@ h1 {
   text-align: left;
   text-decoration: none;
 }
-.link-header:hover {background-color: #404BBF;
+.link-header:hover {
+  background-color: #404bbf;
   color: #404bbf;
 }
-.link-header:active {background-color: #404BBF;
+.link-header:active {
+  background-color: #404bbf;
   color: #404bbf;
 }
 
-
-.logo-second-part-footer{
-  
+.logo-second-part-footer {
   font-family: "Roboto", sans-serif;
-font-size: 18px;
-font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.03em;
-text-align: left;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
 
   color: #ffffff;
 }
 
-.footer-text{
-  color: #F4F4FD;
-
+.footer-text {
+  color: #f4f4fd;
 }
-footer{background: #2E2F42;
+footer {
+  background: #2e2f42;
 }
 .visually-hidden {
-visibility: hidden; } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  visibility: hidden;
+}
 
 .portfolio-all-button {
   text-decoration: none;
-    list-style: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    width: Hug (69px);
-    text-align: center;
-    color: #ffffff;
-    background-color: #404BBF;
-    height: Hug (48px);
-    border-radius: 4px ;
-     padding: 12px, 24px, 12px, 24px ;
-     
-    
-      box-shadow: 0px 2px 1px 0px #00000014 ;
-    
-      box-shadow: 0px 3px 1px 0px #0000001A ;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  width: Hug (69px);
+  text-align: center;
+  color: #ffffff;
+  background-color: #404bbf;
+  height: Hug (48px);
+  border-radius: 4px;
+  padding: 12px, 24px, 12px, 24px;
 
-   }
+  box-shadow: 0px 2px 1px 0px #00000014;
+
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
 
 .portfolio-all-button:active {
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
 .portfolio-all-button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
-} 
+}
 
 .portfolio-button:active {
   cursor: pointer;
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
 .portfolio-button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
 .portfolio-button {
   font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    list-style: none;
-    text-decoration: none;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
-    width: Hug (116px);
-     height: Hug (48px);
-      padding: 12px, 24px, 12px, 24px ;
-       border-radius: 4px ;
-        border: 1px;
-         font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    text-align: center;
-    list-style: none;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  width: Hug (116px);
+  height: Hug (48px);
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 4px;
+  border: 1px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  list-style: none;
 }
 .button-text-porfolio {
   font-family: "Roboto", sans-serif;
@@ -260,4 +244,3 @@ visibility: hidden; }
   text-align: center;
   list-style: none;
 }
-
