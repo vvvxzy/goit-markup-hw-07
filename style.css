@@ -279,3 +279,6 @@ text-align: left;
 }
 footer{background: #2E2F42;
 }
+
+.visually-hidden {
+visibility: hidden; } 
