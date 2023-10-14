@@ -73,19 +73,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.button-text-porfolio {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  text-align: center;
-  list-style: none
-  
 
-
-;
-}
 .header-photo-portfolio {
   color: #2E2F42;
   font-family: "Roboto", sans-serif;
@@ -164,103 +152,8 @@ h1 {
 .link-header:active {background-color: #404BBF;
   color: #404bbf;
 }
-.portfolio-all-button {
-  list-style: none;
-  text-decoration: none;
-  color: #ffffff;
-  background-color:  #404BBF;
- width: Hug (69px)
-height: Hug (48px)
-padding: 12px, 24px, 12px, 24px
-border-radius: 4px
-
-}
-.portfolio-web-button:active{
-  cursor: pointer;
-  background-color: #404BBF;
-  color: #ffffff;
-}
-.portfolio-all-button:hover{
-  background-color: #404BBF;
-  color: #ffffff;
-  
-}
-.portfolio-all-button:active{
-  background-color: #404BBF;
-  color: #ffffff;
-}
-.portfolio-web-button {
-   list-style: none;
-  text-decoration: none;
-  color: #4D5AE5;
-  background-color: #F4F4FD;
-  width: Hug (116px)
-height: Hug (48px)
-padding: 12px, 24px, 12px, 24px
-border-radius: 4px
-border: 1px
-
-}
-.portfolio-web-button:hover{background-color: #404BBF;
-  color: #ffffff;
-}
-.portfolio-app-button {
-   list-style: none;
-  text-decoration: none;
-  color: #4D5AE5;
-  background-color: #F4F4FD;
-  width: Hug (78px)
-height: Hug (48px)
-padding: 12px, 24px, 12px, 24px
-border-radius: 4px
-border: 1px
 
 
-}
-.portfolio-app-button:active{background-color: #404BBF;
-  color: #ffffff;
-}
-.portfolio-app-button:hover {background-color: #404BBF;
-  color: #ffffff;
-}
-
-.portfolio-desing-button {
-   list-style: none;
-  text-decoration: none;
-  color: #4D5AE5;
-  background-color: #F4F4FD;
-  border-radius: 4px;
-width: Hug (101px)
-height: Hug (48px)
-padding: 12px, 24px, 12px, 24px
-border: 1px
-}
-.portfolio-desing-button:active{background-color: #404BBF;
-  color: #ffffff;
-}
-.portfolio-desing-button:hover{
-  background-color: #404BBF;
-  color: #ffffff;
-}
-.portfolio-marketing-button {
-   list-style: none;
-  text-decoration: none; 
-  color: #4D5AE5;
-  background-color: #F4F4FD;
-width: Hug (126px)
-height: Hug (48px)
-padding: 12px, 24px, 12px, 24px
-border-radius: 4px
-border: 1px
-
-}
-.portfolio-marketing-button:active{background-color: #404BBF;
-  color: #ffffff;
-}
-
-.portfolio-marketing-button:hover{background-color: #404BBF;
-  color: #ffffff;
-} 
 .logo-second-part-footer{
   
   font-family: "Roboto", sans-serif;
@@ -279,6 +172,92 @@ text-align: left;
 }
 footer{background: #2E2F42;
 }
-
 .visually-hidden {
 visibility: hidden; } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-all-button {
+  text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    width: Hug (69px);
+    text-align: center;
+    color: #ffffff;
+    background-color: #404BBF;
+    height: Hug (48px);
+    border-radius: 4px ;
+     padding: 12px, 24px, 12px, 24px ;
+     
+    
+      box-shadow: 0px 2px 1px 0px #00000014 ;
+    
+      box-shadow: 0px 3px 1px 0px #0000001A ;
+
+   }
+
+.portfolio-all-button:active {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
+.portfolio-all-button:hover {
+  background-color: #404BBF;
+  color: #ffffff;
+} 
+
+.portfolio-button:active {
+  cursor: pointer;
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
+.portfolio-button:hover {
+  background-color: #404BBF;
+  color: #ffffff;
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    width: Hug (116px);
+     height: Hug (48px);
+      padding: 12px, 24px, 12px, 24px ;
+       border-radius: 4px ;
+        border: 1px;
+         font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    list-style: none;
+}
+.button-text-porfolio {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  list-style: none;
+}
+
