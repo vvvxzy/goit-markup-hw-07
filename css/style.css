@@ -39,7 +39,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
-p {
+.text-adventages{
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -48,6 +48,9 @@ p {
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
+}
+.section-our-team{
+  background-color:#F4F4FD;;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -109,7 +112,7 @@ h1 {
   text-transform: uppercase;
 }
 .logo-second-part {
-  font-family: "Raleway", sans-serif;
+ 
   color: var(--text-portfolio);
 }
 .solution-background {
@@ -120,6 +123,7 @@ h1 {
   line-height: 1.07;
 }
 .solution-button {
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -131,12 +135,11 @@ h1 {
   background-color: #4d5ae5;
 }
 .solution-button:hover {
-  cursor: pointer;
-  color: #404bbf;
+  
+  background-color: #404bbf;
 }
 .solution-button:active {
-  color: #404bbf;
-}
+  background-color: #404bbf;}
 .list {
   list-style: none;
 }
@@ -146,26 +149,20 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
+  color:  var(--text-color);;
   text-decoration: none;
+  
 }
 .link-header:hover {
-  background-color: #404bbf;
+ 
   color: #404bbf;
 }
 .link-header:active {
-  background-color: #404bbf;
+
   color: #404bbf;
 }
 
 .logo-second-part-footer {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-
   color: #ffffff;
 }
 
@@ -180,6 +177,7 @@ footer {
 }
 
 .portfolio-all-button {
+  cursor: pointer;
   text-decoration: none;
   list-style: none;
   font-family: "Roboto", sans-serif;
@@ -187,13 +185,13 @@ footer {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-  width: Hug (69px);
+  width: 69px;
   text-align: center;
   color: #ffffff;
   background-color: #404bbf;
-  height: Hug (48px);
+  height: 48px;
   border-radius: 4px;
-  padding: 12px, 24px, 12px, 24px;
+  padding: 12px 24px 12px 24px ;
 
   box-shadow: 0px 2px 1px 0px #00000014;
 
@@ -222,15 +220,16 @@ footer {
 }
 
 .portfolio-button {
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   list-style: none;
   text-decoration: none;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  width: Hug (116px);
-  height: Hug (48px);
-  padding: 12px, 24px, 12px, 24px;
+  width: 116px;
+  height: 48px;
+  padding: 12px  24px  12px 24px;
   border-radius: 4px;
   border: 1px;
   font-weight: 500;
