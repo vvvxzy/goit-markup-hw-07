@@ -2,11 +2,10 @@ fonty {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-:root{
-    --text-color: #434455;
-    --text-portfolio: #2e2f42;
+:root {
+  --text-color: #434455;
+  --text-portfolio: #2e2f42;
 }
-
 
 body {
   font-family: "Roboto", sans-serif;
@@ -16,7 +15,7 @@ body {
 .link {
   font-style: normal;
   text-decoration: none;
-  color:var(--text-color);
+  color: var(--text-color);
 }
 .link:hover {
   color: rgb(121, 22, 138);
@@ -37,11 +36,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+  color: #2e2f42;
 }
-.text-adventages{
+.text-adventages {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -51,8 +50,8 @@ body {
   text-align: left;
   color: #434455;
 }
-.section-our-team{
-  background-color:#F4F4FD;;
+.section-our-team {
+  background-color: #f4f4fd;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -114,7 +113,6 @@ h1 {
   text-transform: uppercase;
 }
 .logo-second-part {
- 
   color: var(--text-portfolio);
 }
 .solution-background {
@@ -137,11 +135,11 @@ h1 {
   background-color: #4d5ae5;
 }
 .solution-button:hover {
-  
   background-color: #404bbf;
 }
 .solution-button:active {
-  background-color: #404bbf;}
+  background-color: #404bbf;
+}
 .list {
   list-style: none;
 }
@@ -151,16 +149,13 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color:  var(--text-color);;
+  color: var(--text-color);
   text-decoration: none;
-  
 }
 .link-header:hover {
- 
   color: #404bbf;
 }
 .link-header:active {
-
   color: #404bbf;
 }
 
@@ -193,7 +188,7 @@ footer {
   background-color: #404bbf;
   height: 48px;
   border-radius: 4px;
-  padding: 12px 24px 12px 24px ;
+  padding: 12px 24px 12px 24px;
 
   box-shadow: 0px 2px 1px 0px #00000014;
 
@@ -231,7 +226,7 @@ footer {
   background-color: #f4f4fd;
   width: 116px;
   height: 48px;
-  padding: 12px  24px  12px 24px;
+  padding: 12px 24px 12px 24px;
   border-radius: 4px;
   border: 1px;
   font-weight: 500;
