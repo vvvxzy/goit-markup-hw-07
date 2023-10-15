@@ -2,6 +2,10 @@ fonty {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+:root{
+    --text-color: #434455;
+    --text-portfolio: #2e2f42;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -10,7 +14,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: #434455;
+  color:var(--text-color);
 }
 .link:hover {
   color: rgb(121, 22, 138);
@@ -74,9 +78,10 @@ h1 {
 }
 
 .header-photo-portfolio {
-  color: #2e2f42;
+  color: var(--text-portfolio);
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  line-height: 1.2;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -105,10 +110,10 @@ h1 {
 }
 .logo-second-part {
   font-family: "Raleway", sans-serif;
-  color: #2e2f42;
+  color: var(--text-portfolio);
 }
 .solution-background {
-  background-color: #2e2f42;
+  background-color: var(--text-portfolio);
 }
 h1 {
   color: white;
@@ -168,7 +173,7 @@ h1 {
   color: #f4f4fd;
 }
 footer {
-  background: #2e2f42;
+  background: var(--text-portfolio);
 }
 .visually-hidden {
   visibility: hidden;
