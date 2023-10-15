@@ -7,12 +7,14 @@ fonty {
     --text-portfolio: #2e2f42;
 }
 
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 .link {
+  font-style: normal;
   text-decoration: none;
   color:var(--text-color);
 }
