@@ -164,7 +164,7 @@ h1 {
 }
 
 .logo-second-part-footer {
-  color: #ffffff;
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -260,3 +260,7 @@ margin: 0 auto
   margin-bottom: 72px;
   justify-content: center;
 gap: 48px , 24px;}
+.image-portfolio{
+ width: 360;
+ height: 300;
+}
