@@ -36,6 +36,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.adress-header{
+font-style: normal;
+}
 .text-adventages {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
