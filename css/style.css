@@ -75,7 +75,7 @@ h1 {
 }
 
 .header-photo-portfolio {
-  color: var(--text-portfolio);
+  color: var(--grey-dark);
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -108,10 +108,10 @@ h1 {
   margin-right: 76px;
 }
 .logo-second-part {
-  color: var(--text-portfolio);
+  color: var(--grey-dark);
 }
 .solution-background {
-  background-color: var(--text-portfolio);
+  background-color: var(--grey-dark);
 }
 h1 {
   color: white;
@@ -164,7 +164,7 @@ h1 {
   color: var(--dirt-white);
 }
 footer {
-  background: var(--text-portfolio);
+  background: var(--grey-dark);
 }
 .visually-hidden {
   visibility: hidden;
@@ -181,7 +181,7 @@ footer {
   letter-spacing: 0.04em;
   width: 69px;
   text-align: center;
-  color: --white;
+  color: var(--dirt-white);
   background-color: var(--blue-dark);
   height: 48px;
   border-radius: 4px;
@@ -194,23 +194,23 @@ footer {
 
 .portfolio-all-button:active {
   background-color: var(--blue-dark);
-  color: --white;
+  color: var(--white);
 }
 
 .portfolio-all-button:hover {
   background-color: var(--blue-dark);
-  color: --white;
+  color: var(--white);
 }
 
 .portfolio-button:active {
   cursor: pointer;
   background-color: var(--blue-dark);
-  color: --white;
+  color: var(--white);
 }
 
 .portfolio-button:hover {
   background-color: var(--blue-dark);
-  color: --white;
+  color: var(--white);
 }
 
 .portfolio-button {
@@ -219,7 +219,7 @@ footer {
   font-size: 16px;
   list-style: none;
   text-decoration: none;
-  color: var(--blue-button);
+  color: var(--blue-violet);
   background-color: var(--dirt-white);
   width: 116px;
   height: 48px;
