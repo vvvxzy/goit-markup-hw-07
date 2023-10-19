@@ -3,13 +3,12 @@ fonty {
   font-family: "Roboto", sans-serif;
 }
 :root {
-  --dirt-white: #f4f4fd ;
-  --white:#ffffff ;
+  --dirt-white: #f4f4fd;
+  --white: #ffffff;
   --gray-light: #434455;
   --grey-dark: #2e2f42;
   --blue-dark: #404bbf;
-  --blue-violet: #4d5ae5 ;
-  
+  --blue-violet: #4d5ae5;
 }
 
 body {
@@ -23,7 +22,6 @@ body {
   color: var(--gray-light);
 }
 
-
 .header-advantages {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -32,8 +30,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--grey-dark);
 }
-.adress-header{
-font-style: normal;
+.adress-header {
+  font-style: normal;
 }
 .text-adventages {
   font-family: "Roboto", sans-serif;
@@ -43,10 +41,10 @@ font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
+  color: var(--gray-light);
 }
 .section-our-team {
-  background-color: var(--dirt-white) ;
+  background-color: var(--dirt-white);
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -93,7 +91,7 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
+  color: var(--gray-light);
   text-decoration: none;
 }
 
@@ -129,19 +127,18 @@ h1 {
   text-align: left;
 
   color: var(--white);
-  background-color: #4d5ae5;
+  background-color: var(--blue-violet);
 }
 .solution-button:hover {
   background-color: var(--blue-dark);
 }
 .solution-button:active {
-  background-color: #404bbf;
+  background-color: var(--blue-violet);
 }
 .list {
   list-style: none;
   margin: 0;
-  padding: 0
-  ;
+  padding: 0;
 }
 .link-header {
   font-family: "Roboto", sans-serif;
@@ -197,7 +194,7 @@ footer {
 
 .portfolio-all-button:active {
   background-color: var(--blue-dark);
-  color:--white;
+  color: --white;
 }
 
 .portfolio-all-button:hover {
@@ -223,7 +220,7 @@ footer {
   list-style: none;
   text-decoration: none;
   color: var(--blue-button);
-  background-color: #f4f4fd;
+  background-color: var(--dirt-white);
   width: 116px;
   height: 48px;
   padding: 12px 24px 12px 24px;
@@ -244,19 +241,20 @@ footer {
   text-align: center;
   list-style: none;
 }
-.section-main-portfolio{
-width: 1158px;
-margin: 0 auto
-; padding: 0 15px;
+.section-main-portfolio {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.list-portfolio{
-  display: flex
-  ;
-  flex-wrap: wrap; gap: 24px;
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   margin-bottom: 72px;
   justify-content: center;
-gap: 48px , 24px;}
-.image-portfolio{
- width: 360;
- height: 300;
+  gap: 48px, 24px;
+}
+.image-portfolio {
+  width: 360;
+  height: 300;
 }
