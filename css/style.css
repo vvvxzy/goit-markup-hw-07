@@ -14,7 +14,7 @@ fonty {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--gray-light);
-  background-color: --white;
+  background-color: var(--white);
 }
 .link {
   font-style: normal;
