@@ -147,7 +147,7 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--gray-light);
+  color: var(--grey-dark);
   text-decoration: none;
 }
 .link-header:hover {
