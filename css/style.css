@@ -46,13 +46,14 @@ body {
 .section-our-team {
   background-color: var(--dirt-white);
 }
-h1 {
+.solution-text {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--white);
 }
 .header-uper-photos {
   font-family: "Roboto", sans-serif;
