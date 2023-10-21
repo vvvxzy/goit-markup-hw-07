@@ -134,7 +134,7 @@ h1 {
   background-color: var(--blue-dark);
 }
 .solution-button:active {
-  background-color: var(--blue-violet);
+  background-color: var(--blue-dark);
 }
 .list {
   list-style: none;
