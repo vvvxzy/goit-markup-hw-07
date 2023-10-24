@@ -21,7 +21,12 @@ body {
   text-decoration: none;
   color: var(--gray-light);
 }
+<<<<<<< Updated upstream
 
+=======
+.header-team {
+}
+>>>>>>> Stashed changes
 .header-advantages {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -56,7 +61,7 @@ body {
   text-align: center;
   color: var(--white);
 }
-.image-index{
+.image-index {
   background-color: var(--white);
 }
 .header-uper-photos {
@@ -116,7 +121,7 @@ body {
   color: var(--grey-dark);
 }
 .solution-background {
-  background-color: var(--blue-dark);
+  background-color: var(--grey-dark);
 }
 h1 {
   color: white;
@@ -153,6 +158,9 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--grey-dark);
+}
+.link-header:focus {
+  color: var(--blue-dark);
 }
 .link-header:hover {
   color: var(--blue-dark);
