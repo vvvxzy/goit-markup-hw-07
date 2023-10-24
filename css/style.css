@@ -191,18 +191,9 @@ footer {
 .visually-hidden {
   visibility: hidden;
 }
-.portfolio-button:focus {
-}
-.portfolio-button:active {
-  cursor: pointer;
-  background-color: var(--blue-dark);
-  color: var(--white);
-}
 
-.portfolio-button:hover {
-  background-color: var(--blue-dark);
-  color: var(--white);
-}
+
+
 
 .portfolio-button {
   cursor: pointer;
@@ -226,6 +217,11 @@ footer {
   box-shadow: 0px 2px 1px 0px #00000014;
 
   box-shadow: 0px 3px 1px 0px #0000001a;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--blue-dark);
+  color: var(--white);
 }
 
 .section-main-portfolio {
