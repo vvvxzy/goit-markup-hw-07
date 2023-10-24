@@ -21,9 +21,7 @@ body {
   text-decoration: none;
   color: var(--gray-light);
 }
-.header-team{
-  
-}
+
 .header-advantages {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -264,4 +262,9 @@ footer {
 .image-portfolio {
   width: 360;
   height: 300;
+}
+button{
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
