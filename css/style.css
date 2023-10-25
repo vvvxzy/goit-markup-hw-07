@@ -19,7 +19,6 @@ body {
 .link {
   font-style: normal;
   text-decoration: none;
-  color: var(--gray-light);
 }
 .list {
   list-style: none;
