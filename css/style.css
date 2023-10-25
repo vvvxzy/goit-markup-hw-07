@@ -12,7 +12,6 @@ fonty {
 }
 
 body {
-  
   font-family: "Roboto", sans-serif;
   color: var(--gray-light);
   background-color: var(--white);
@@ -20,12 +19,10 @@ body {
 .link {
   font-style: normal;
   text-decoration: none;
-  color: var(--gray-light);
 }
 .list {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 .header-advantages {
   font-family: "Roboto", sans-serif;
@@ -46,7 +43,7 @@ body {
   list-style: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+
   color: var(--gray-light);
 }
 .section-our-team {
@@ -58,11 +55,10 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: var(--white);
 }
 .image-index {
- 
   background-color: var(--white);
 }
 .header-uper-photos {
@@ -71,7 +67,7 @@ body {
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-align: center;
+
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--grey-dark);
@@ -82,7 +78,6 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .header-photo-portfolio {
@@ -93,7 +88,6 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 .text-under-header-portfolio {
   font-family: "Roboto", sans-serif;
@@ -101,7 +95,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
+
   color: var(--gray-light);
   text-decoration: none;
 }
@@ -112,7 +106,7 @@ body {
   font-weight: 800;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  text-align: left;
+
   color: var(--blue-violet);
   text-decoration: none;
   text-transform: uppercase;
@@ -135,7 +129,6 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-  text-align: left;
 
   color: var(--white);
   background-color: var(--blue-violet);
@@ -157,7 +150,7 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color:var(--grey-dark);
+  color: var(--grey-dark);
 }
 .link-header:focus {
   color: var(--blue-dark);
@@ -192,9 +185,6 @@ footer {
   visibility: hidden;
 }
 
-
-
-
 .portfolio-button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -203,20 +193,15 @@ footer {
   text-decoration: none;
   color: var(--blue-violet);
   background-color: var(--dirt-white);
-  width: 116px;
-  
-  padding: 12px 24px 12px 24px;
+
   border-radius: 4px;
   border: 1px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-decoration: none;
-  text-align: center;
-  list-style: none;
-  box-shadow: 0px 2px 1px 0px #00000014;
 
-  box-shadow: 0px 3px 1px 0px #0000001a;
+  list-style: none;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -225,12 +210,9 @@ footer {
 }
 
 .section-main-portfolio {
-  
   margin: 0 auto;
-  padding: 0 15px;
 }
 .list-portfolio {
-  display: flex;
   flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 72px;
@@ -238,10 +220,8 @@ footer {
   gap: 48px, 24px;
 }
 .image-portfolio {
- 
 }
 button {
   cursor: pointer;
   border: none;
-  border-radius: 4px;
 }
