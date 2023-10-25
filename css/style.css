@@ -214,10 +214,9 @@ footer {
 }
 .list-portfolio {
   flex-wrap: wrap;
-  gap: 24px;
+
   margin-bottom: 72px;
   justify-content: center;
-  gap: 48px, 24px;
 }
 .image-portfolio {
 }
