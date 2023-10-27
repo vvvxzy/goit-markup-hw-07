@@ -308,10 +308,11 @@ footer {
   margin-bottom: 72px;
   justify-content: center;
   margin-bottom: 72px;
+ 
 
 }
 .li-photo-portfolio{
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px)/3);
 
 }
 .portfolio-text{
