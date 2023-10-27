@@ -24,6 +24,22 @@ body {
   list-style: none;
   margin: 0;
 }
+.div-header{
+  display: flex;
+}
+.container{
+  display: flex;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+}
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav-header{
+  display: flex;
+  align-items: center;
+}
 .header-advantages {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -57,6 +73,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
+  max-width: 496px;
 }
 .image-index {
   background-color: var(--white);
@@ -117,6 +134,7 @@ body {
   color: var(--grey-dark);
 }
 .solution-background {
+  padding: 188px 0 188px;
   background-color: var(--grey-dark);
 }
 h1 {
@@ -124,13 +142,17 @@ h1 {
   line-height: 1.07;
 }
 .solution-button {
+  border: none;
+  height: 56px;
+  min-width: 169px;
+  display: block;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-
+  border-radius: 4px;
   color: var(--white);
   background-color: var(--blue-violet);
 }
