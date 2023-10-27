@@ -49,6 +49,9 @@ padding: 0 15px;
   letter-spacing: 0.02em;
   color: var(--grey-dark);
 }
+.section-advantages{
+padding: 120px 0 120px;
+}
 .adress-header {
   font-style: normal;
 }
@@ -61,6 +64,13 @@ padding: 0 15px;
   letter-spacing: 0.02em;
 
   color: var(--gray-light);
+}
+.list-advantages{
+  display: flex;
+  gap: 24px;
+}
+.li-advantages{
+  width: calc(100%-72px)/4;
 }
 .section-our-team {
   background-color: var(--dirt-white);
