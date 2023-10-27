@@ -48,6 +48,7 @@ padding: 0 15px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--grey-dark);
+  margin: bottom 9px;
 }
 .section-advantages{
 padding: 120px 0 120px;
@@ -70,7 +71,7 @@ padding: 120px 0 120px;
   gap: 24px;
 }
 .li-advantages{
-  width: calc(100%-72px)/4;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .section-our-team {
   background-color: var(--dirt-white);
@@ -88,6 +89,9 @@ padding: 120px 0 120px;
 .image-index {
   background-color: var(--white);
 }
+.section-doing{
+  padding-bottom: 120px;
+}
 .header-uper-photos {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -98,6 +102,16 @@ padding: 120px 0 120px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--grey-dark);
+  margin-bottom: 72px;
+
+}
+.list-doing{
+  display: flex;
+  gap: 24px;
+}
+.li-doing{
+  width: ((100% - 3 * 16px) / 3) ;
+ 
 }
 .name-index {
   font-family: "Roboto", sans-serif;
