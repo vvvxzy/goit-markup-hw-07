@@ -269,30 +269,48 @@ footer {
   text-decoration: none;
   color: var(--blue-violet);
   background-color: var(--dirt-white);
-
-  border: 1px;
+  border: 1px solid #e7e9fc;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-decoration: none;
   text-align: center;
   list-style: none;
+  padding: 12px 24px 12px;
+  border-radius: 4px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--blue-dark);
   color: var(--white);
+  border: 1px solid transparent;
 }
 
 .section-main-portfolio {
+  padding: 96px 0 120px 0;
   margin: 0 auto;
 }
 .list-portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 24px;;
   flex-wrap: wrap;
-
   margin-bottom: 72px;
   justify-content: center;
+  margin-bottom: 72px;
 }
+.list-photo-portfolio{
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  margin-bottom: 72px;
+  justify-content: center;
+  margin-bottom: 72px;
+
+}
+
 img{
   display: block;
 }
