@@ -38,7 +38,9 @@ padding: 0 15px;
 }
 .nav-header{
   display: flex;
+  gap: 40px;
   align-items: center;
+  padding: 24px 0 24px;
 }
 .header-advantages {
   font-family: "Roboto", sans-serif;
@@ -53,8 +55,10 @@ padding: 0 15px;
 .section-advantages{
 padding: 120px 0 120px;
 }
-.adress-header {
+.adress-header { 
+  display: flex;
   font-style: normal;
+  gap: 40px;
 }
 .text-adventages {
   text-align: center;
@@ -221,6 +225,7 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--grey-dark);
+  display: flex;
 }
 .link-header:focus {
   color: var(--blue-dark);
@@ -247,7 +252,7 @@ footer {
   background: var(--grey-dark);
 }
 .footer-adress{
-  display: inline-block;
+ display:inline-block;
   margin-bottom: 16px;
 }
 .paragraph {
