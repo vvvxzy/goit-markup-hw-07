@@ -237,7 +237,7 @@ h1,h2,h3,h4,p {
   letter-spacing: 0.02em;
   color: var(--grey-dark);
   display: flex;
-}
+padding: 24px 0 24px}
 .link-header:focus {
   color: var(--blue-dark);
 }
@@ -283,7 +283,16 @@ footer {
   text-align: center;
 }
 .visually-hidden {
-  visibility: hidden;
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .portfolio-button {
