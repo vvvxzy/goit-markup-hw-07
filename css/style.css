@@ -23,12 +23,13 @@ body {
 .list {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 .div-header{
   display: flex;
+  align-items: center;
 }
 .container{
-  display: flex;
 width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
@@ -38,9 +39,12 @@ padding: 0 15px;
 }
 .nav-header{
   display: flex;
-  gap: 40px;
   align-items: center;
   padding: 24px 0 24px;
+}
+.list-header{
+  display: flex;
+  gap: 40px;
 }
 .header-advantages {
   font-family: "Roboto", sans-serif;
@@ -50,18 +54,23 @@ padding: 0 15px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--grey-dark);
-  margin: bottom 9px;
+  margin-bottom: 8px;
 }
 .section-advantages{
 padding: 120px 0 120px;
 }
 .adress-header { 
-  display: flex;
+  margin-left: auto;
   font-style: normal;
+ 
+}
+.list-adress{
   gap: 40px;
+  display: flex;
+  align-items: center;
 }
 .text-adventages {
-  text-align: center;
+ 
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -90,6 +99,8 @@ padding: 120px 0 120px;
   text-align: center;
   color: var(--white);
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .li-our-team {
   flex-basis: calc((100%-72px) / 4);
@@ -166,8 +177,8 @@ padding: 120px 0 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--grey-dark);
-  margin: bottom 9px;
-  text-align: center;
+  margin: 0 0 8px 0;
+ 
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -188,9 +199,8 @@ padding: 120px 0 120px;
   padding: 188px 0 188px;
   background-color: var(--grey-dark);
 }
-h1 {
-  color: white;
-  line-height: 1.07;
+h1,h2,h3,h4,p {
+  margin: 0;
 }
 .solution-button {
   border: none;
@@ -206,6 +216,7 @@ h1 {
   border-radius: 4px;
   color: var(--white);
   background-color: var(--blue-violet);
+  margin: 0 auto;
 }
 .solution-button:hover {
   color: var(--white);
@@ -236,7 +247,15 @@ h1 {
 .link-header:active {
   color: var(--blue-dark);
 }
-
+.link-adress{
+  font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--gray-light);
+    display: flex;
+}
 .logo-second-part-footer {
   color: var(--dirt-white);
 }
