@@ -176,8 +176,7 @@ body {
 background-color: var(--blue-dark);
 }
 .svg-social-media{
-  
-}
+fill:var(--dirt-white);}
 .people-our-team {
   text-align: center;
   padding: 32px 0px;
