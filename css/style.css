@@ -36,6 +36,9 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+ box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .nav-header {
   display: flex;
@@ -57,6 +60,7 @@ body {
 }
 .section-advantages {
   padding: 120px 0 120px;
+ 
 }
 .adress-header {
   margin-left: auto;
@@ -86,6 +90,9 @@ body {
 .section-our-team {
   background-color: var(--dirt-white);
   padding: 120px 0 120px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .solution-text {
   font-family: "Roboto", sans-serif;
@@ -191,6 +198,12 @@ body {
 .solution-background {
   padding: 188px 0 188px;
   background-color: var(--grey-dark);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/img-name.jpeg);
+    max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 h1,
 h2,
@@ -316,6 +329,9 @@ footer {
   background-color: var(--blue-dark);
   color: var(--white);
   border: 1px solid transparent;
+  box-shadow:0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .section-main-portfolio {
@@ -340,6 +356,14 @@ footer {
 }
 .li-photo-portfolio {
   width: calc((100% - 48px) / 3);
+  display: block;
+
+}
+.li-photo-portfolio:hover,
+.li-photo-portfolio:focus{
+box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-text {
   padding: 32px 16px;
