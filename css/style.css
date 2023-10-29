@@ -193,6 +193,7 @@ fill:var(--dirt-white);
   font-size: 36px;
   line-height: 1.11;
   color: var(--grey-dark);
+  margin-bottom: 72px;
 }
 .list-customers{
   display: flex;
@@ -212,7 +213,8 @@ height: 88px;
   justify-content: center;
   color: #8e8f99;
 }
-.link-customers:hover,.link-customers:focus{
+.link-customers:hover,
+.link-customers:focus{
   border-color: var(--blue-dark);
   color: var(--blue-dark);
 }
