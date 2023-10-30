@@ -361,7 +361,7 @@ footer {
   align-items: baseline;
 }
 .div-footer-text {
-  gap: 120px;
+  margin-right: 120px;
 }
 .list-portfolio {
   display: flex;
@@ -380,13 +380,16 @@ footer {
   height: 100%;
   background-color: var(--blue-violet);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .link-footer:hover,
 .link-footer:focus {
   background-color: #31d0aa;
 }
 .svg-footer {
-  color: var(--dirt-white);
+  fill: var(--dirt-white);
 }
 
 .header-social-media {
