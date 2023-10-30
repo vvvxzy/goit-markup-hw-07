@@ -210,7 +210,11 @@ body {
   justify-content: center;
   color: #8e8f99;
 }
-.link-customers:hover,
+.link-customers:hover {
+  border-color: var(--blue-dark);
+  color: var(--blue-dark);
+}
+
 .link-customers:focus {
   border-color: var(--blue-dark);
   color: var(--blue-dark);
