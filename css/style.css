@@ -320,6 +320,7 @@ p {
   color: var(--grey-dark);
   display: flex;
   padding: 24px 0 24px;
+  position: relative;
 }
 .link-header:focus {
   color: var(--blue-dark);
