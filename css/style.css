@@ -234,9 +234,26 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
-
   color: var(--gray-light);
   text-decoration: none;
+}
+.portfolio-animation {
+  position: relative;
+  overflow: hidden;
+}
+.paragraph-animation {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dirt-white);
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-people {
   font-family: "Roboto", sans-serif;
@@ -462,6 +479,7 @@ footer {
   list-style: none;
   padding: 12px 24px 12px;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -498,6 +516,7 @@ footer {
 }
 .link-photo-portfolio {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-photo-portfolio:hover,
 .link-photo-portfolio:focus {
