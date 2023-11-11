@@ -613,3 +613,50 @@ button {
 .svg-close-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.paragraph-newsletter {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.newsletter-form {
+  display: flex;
+}
+.newsletter-label {
+  gap: 24px;
+}
+.newsletter-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white);
+}
+.newsletter-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--blue-violet);
+  border: none;
+  border-radius: 4px;
+}
+.newsletter-svg {
+  margin-left: 16px;
+}
