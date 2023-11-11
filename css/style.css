@@ -9,6 +9,7 @@ fonty {
   --grey-dark: #2e2f42;
   --blue-dark: #404bbf;
   --blue-violet: #4d5ae5;
+  --gray-white: #8e8f99;
 }
 
 body {
@@ -613,6 +614,22 @@ button {
 .svg-close-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.paragraph-modal {
+  color: var(--grey-dark);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.form-div {
+  margin-bottom: 8px;
+}
+.label-name {
+  color: var(--gray-white);
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+  margin-bottom: 4px;
+}
 .paragraph-newsletter {
   margin-bottom: 16px;
   font-weight: 500;
@@ -639,6 +656,7 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--white);
+  gap: 24px;
 }
 .newsletter-button {
   min-width: 165px;
