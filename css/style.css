@@ -557,6 +557,7 @@ button {
   border: none;
 }
 .modal-background {
+  padding: 72px 24px 24px 24px;
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -652,7 +653,7 @@ button {
 }
 .label-conditions {
   display: block;
-  color: var(--light-slate);
+  color: ;
   font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 1.17;
@@ -717,12 +718,13 @@ button {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-modal:hover .svg-name {
-  fill: var(--blue-violet);
-}
 .input-modal:hover {
   border-color: var(--blue-violet);
 }
+.input-modal:hover .svg-name {
+  fill: var(--blue-violet);
+}
+
 .paragraph-newsletter {
   margin-bottom: 16px;
   font-weight: 500;
