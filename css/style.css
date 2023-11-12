@@ -631,6 +631,64 @@ button {
   padding: 8px 16px;
   resize: none;
 }
+.text-place::placeholder {
+  color: ;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+.modal-conditions {
+  align-items: center;
+  display: flex;
+  margin-bottom: 24px;
+}
+.input-conditions {
+  border: 1px solid;
+  border-radius: 4px;
+  display: block;
+  height: 16px;
+  margin-right: 8px;
+  width: 16px;
+}
+.label-conditions {
+  display: block;
+  color: var(--light-slate);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+}
+.span-condtitions {
+  align-items: center;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  color: var(--iris);
+  display: inline-flex;
+  fill: transparent;
+  height: 16px;
+  justify-content: center;
+  margin-right: 8px;
+  width: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-conditions {
+}
+.button-modal {
+  background-color: var(--iris);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white);
+  display: block;
+  height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  min-width: 169px;
+}
+.button-modal:hover,
+.button-modal:focus {
+  background-color: ;
+  color: var(--white);
+}
 .label-modal {
   color: var(--gray-white);
   display: block;
