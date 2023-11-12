@@ -661,7 +661,7 @@ button {
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  color: var(--iris);
+  color: var(--gray-white);
   display: inline-flex;
   fill: transparent;
   height: 16px;
