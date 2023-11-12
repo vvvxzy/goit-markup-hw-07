@@ -743,6 +743,7 @@ button {
   gap: 24px;
 }
 .newsletter-input {
+  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -773,6 +774,6 @@ button {
   border: none;
   border-radius: 4px;
 }
-.newsletter-svg {
+.newsletter-svg { 
   margin-left: 16px;
 }
