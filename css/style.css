@@ -663,6 +663,11 @@ button {
   letter-spacing: 0.04em;
   line-height: 1.17;
 }
+.span-conditions:checked{
+  background-color: var(--blue-dark);
+  fill: var(--dirt-white);
+  border: none;
+}
 .span-conditions {
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
