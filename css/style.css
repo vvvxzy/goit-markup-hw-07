@@ -639,8 +639,10 @@ button {
   resize: none;
   color:rgba(46, 47, 66, 0.4) ;
  padding: 8px 16px;
+ width: 100%;
+ outline: none;
 }
-.text-place:hover {
+.text-place:focus {
  border-color: var(--blue-violet);
 }
 .modal-conditions {
@@ -663,7 +665,7 @@ button {
   letter-spacing: 0.04em;
   line-height: 1.17;
 }
-.span-conditions:checked{
+.input-conditions:checked + .label-conditions .span-conditions{
   background-color: var(--blue-dark);
   fill: var(--dirt-white);
   border: none;
@@ -745,10 +747,10 @@ button {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-modal:hover {
+.input-modal:focus {
   border-color: var(--blue-violet);
 }
-.input-modal:hover .svg-name {
+.input-modal:focus + .svg-name {
   fill: var(--blue-violet);
 }
 
@@ -762,6 +764,8 @@ button {
 }
 .newsletter-form {
   display: flex;
+  gap: 24px
+  ;
 }
 .newsletter-label {
   gap: 24px;
