@@ -806,4 +806,5 @@ button {
 }
 .newsletter-svg { 
   margin-left: 16px;
+  fill: var(--white);
 }
