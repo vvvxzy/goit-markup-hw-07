@@ -889,7 +889,9 @@ body {
   .input-modal:focus+.svg-name {
     fill: var(--blue-violet);
   }
-
+  .div-newsletter{
+    text-align: center;
+  }
   .paragraph-newsletter {
     margin-bottom: 16px;
     font-weight: 500;
