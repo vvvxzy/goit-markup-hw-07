@@ -197,6 +197,7 @@ body {
     flex-wrap: wrap;
     display: flex;
     gap: 24px;
+    justify-content: center;
   }
 
   .list-social-media {
@@ -351,7 +352,7 @@ body {
     color: var(--blue-violet);
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 76px;
+    
   }
 
   .logo-second-part {
@@ -492,11 +493,11 @@ body {
   .div-footer {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
   }
 
   .div-footer-text {
-    margin-right: 120px;
+   
   }
 
   .list-portfolio {
@@ -1017,7 +1018,8 @@ body {
   }
 
   .logo {
-    padding-top: 25.5px;
+    display: flex;
+    justify-content: center;
   }
 
   .li-our-team {
@@ -1106,9 +1108,10 @@ body {
   }
 
   .list-adress {
-    gap: 40px;
+    gap: 12px;
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
 
   .text-adventages {
@@ -1123,12 +1126,13 @@ body {
 
   .list-advantages {
     display: flex;
-    flex-direction: column;
+    flex-direction: unset;
     gap: 24px;
+    flex-wrap: wrap;
   }
 
   .li-advantages {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 2);
   }
 
   .icon-div-advantages {
@@ -1207,6 +1211,7 @@ body {
     flex-wrap: wrap;
     display: flex;
     gap: 24px;
+    justify-content: center;
   }
 
   .list-social-media {
@@ -2095,6 +2100,10 @@ body {
     gap: 40px;
   }
 
+  .div-newsletter{ 
+    padding-left: 80px;
+    
+  }
   .header-advantages {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -2119,6 +2128,7 @@ body {
     gap: 40px;
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
 
   .text-adventages {
@@ -2505,6 +2515,7 @@ body {
 
   .div-footer {
     display: flex;
+    flex-direction: row;
     align-items: baseline;
   }
 
@@ -2554,6 +2565,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--white);
     margin-bottom: 16px;
+    text
   }
 
   .paragraph {
