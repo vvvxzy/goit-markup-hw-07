@@ -75,7 +75,9 @@ body {
   .list-header {
     display: none;
   }
-
+ .logo{
+  padding-top: 26.6px;
+ }
   .header-advantages {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -1005,7 +1007,7 @@ body {
   }
 
   .modal-container {
-    width: 392px;
+    max-width: 310px;
   }
 
   .header {
@@ -1507,7 +1509,7 @@ body {
   .div-footer {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: wrap;
   }
 
   .div-footer-text {
@@ -2018,7 +2020,7 @@ body {
   }
 
   .logo {
-    padding-top: 25.5px;
+   
   }
 
   .li-our-team {
