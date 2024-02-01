@@ -21,11 +21,16 @@
   </head>
 
   <body>
-    <header class="header"> 
+    <header class="header">
       <div class="div-header container">
-        <button class="mobile-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" js-open-menu>
+        <button
+          class="mobile-button js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          js-open-menu
+        >
           <svg width="32" height="22">
-            <use href="./images/icons.svg#icon-menu-icon"/>
+            <use href="./images/icons.svg#icon-menu-icon" />
           </svg>
         </button>
         <nav class="list link nav-header">
@@ -263,7 +268,10 @@
                 width="264"
                 height="260"
                 src="photos/camila-garcia.jpg"
-                srcset="photos/camila-garcia.jpg 1x, photos/camila-garcia@2x.jpg 2x"
+                srcset="
+                  photos/camila-garcia.jpg    1x,
+                  photos/camila-garcia@2x.jpg 2x
+                "
                 alt="pretty brunette"
               />
               <div class="people-our-team">
@@ -308,7 +316,10 @@
                 width="264"
                 height="260"
                 src="photos/daniel-wilson.jpg"
-                srcset="photos/daniel-wilson.jpg 1x, photos/daniel-wilson@2x.jpg 2x"
+                srcset="
+                  photos/daniel-wilson.jpg    1x,
+                  photos/daniel-wilson@2x.jpg 2x
+                "
                 alt="man with a beard in a gray t-shirt"
               />
               <div class="people-our-team">
@@ -404,47 +415,49 @@
     </main>
     <footer class="footer">
       <div class="container div-footer">
-        <div class="  div-footer-text">
-          <a class="logo list link footer-adress"
-            >Web<span class="logo-second-part-footer">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
         <div class="">
-          <p class="header-social-media">Social media</p>
-          <ul class="list list-footer">
-            <li class="li-footer">
-              <a class="link-footer" href="">
-                <svg class="svg-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-icon"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="li-footer">
-              <a class="link-footer" href="">
-                <svg class="svg-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-icon"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="li-footer">
-              <a class="link-footer" href="">
-                <svg class="svg-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-icon"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="li-footer">
-              <a class="link-footer" href="">
-                <svg class="svg-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-icon"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <div class="div-footer-text">
+            <a class="logo list link footer-adress"
+              >Web<span class="logo-second-part-footer">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-social">
+            <p class="header-social-media">Social media</p>
+            <ul class="list list-footer">
+              <li class="li-footer">
+                <a class="link-footer" href="">
+                  <svg class="svg-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="li-footer">
+                <a class="link-footer" href="">
+                  <svg class="svg-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="li-footer">
+                <a class="link-footer" href="">
+                  <svg class="svg-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="li-footer">
+                <a class="link-footer" href="">
+                  <svg class="svg-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-icon"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="div-newsletter">
           <p class="paragraph-newsletter">Subscribe</p>
@@ -478,52 +491,61 @@
           </svg>
         </button>
         <p class="paragraph paragraph-modal">
-           Leave your contacts and we will call you back
+          Leave your contacts and we will call you back
         </p>
-          <form class="modal-form">
-
-
-
-            <div class="form-div">
-              <label class="label-modal" for="user-name">Name</label>
-              <div class="div-user">
-                <input class="input-modal" id="user-name" name="user-name" type="text" required>
-                <svg class="svg-name" width="18" height="24">
-                  <use  href="./images/icons.svg#icon-user-icon"></use>
-                </svg>
-                </div>
-              </div>
-
-
-
-               <div class="form-div">
-                  <label class="label-modal" for="user-tel">Phone</label>
-                  <div class="div-user">
-                    <input class="input-modal" id="user-tel" name="tel" type="tel" required>
-                    <svg class="svg-name" width="18" height="24">
-                      <use  href="./images/icons.svg#icon-phone-icon"></use>
-                    </svg>
-                  </div>
-               </div>
-               
-            <div class="form-div">
-              <label class="label-modal" for="user-email">Email</label>
-              <div class="div-user">
-              <input class="input-modal" id="user-email" name="email" type="email" required>
+        <form class="modal-form">
+          <div class="form-div">
+            <label class="label-modal" for="user-name">Name</label>
+            <div class="div-user">
+              <input
+                class="input-modal"
+                id="user-name"
+                name="user-name"
+                type="text"
+                required
+              />
               <svg class="svg-name" width="18" height="24">
-                <use  href="./images/icons.svg#icon-email-icon"></use>
+                <use href="./images/icons.svg#icon-user-icon"></use>
               </svg>
             </div>
-           </div>
+          </div>
 
+          <div class="form-div">
+            <label class="label-modal" for="user-tel">Phone</label>
+            <div class="div-user">
+              <input
+                class="input-modal"
+                id="user-tel"
+                name="tel"
+                type="tel"
+                required
+              />
+              <svg class="svg-name" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-icon"></use>
+              </svg>
+            </div>
+          </div>
 
-
-
+          <div class="form-div">
+            <label class="label-modal" for="user-email">Email</label>
+            <div class="div-user">
+              <input
+                class="input-modal"
+                id="user-email"
+                name="email"
+                type="email"
+                required
+              />
+              <svg class="svg-name" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-icon"></use>
+              </svg>
+            </div>
+          </div>
 
           <div class="modal-text-place">
             <label class="label-modal" for="user-comment">Comment</label>
             <textarea
-              class=" text-place"
+              class="text-place"
               name="user-comment"
               id="user-comment"
               rows="5"
@@ -552,7 +574,7 @@
           <button class="button button-modal" type="submit">Send</button>
         </form>
       </div>
-    </div> 
+    </div>
     <div class="menu-container js-menu-container" id="mobile-menu">
       <div>
         <button class="close menu-toggle js-close-menu" type="button">
@@ -560,25 +582,27 @@
             <use href="./images/icons.svg#icon-close-icon" />
           </svg>
         </button>
-        <nav class="nav-header">
-          <ul class="list list-header">
-            <li>
-              <a href="./index.html" class="link link-header studio-line">Studio</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="link link-header">Portfolio</a>
-            </li>
-            <li>
-              <a href="" class="link link-header">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+
+        <ul class="list list-header">
+          <li>
+            <a href="./index.html" class="link link-header studio-line"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a href="./portfolio.html" class="link link-header">Portfolio</a>
+          </li>
+          <li>
+            <a href="" class="link link-header">Contacts</a>
+          </li>
+        </ul>
       </div>
       <div>
         <address class="adress-header">
           <ul class="list list-adress">
             <li>
-              <a class="link link-adress" href="mailto:info@devstudio.com">info@devstudio.com
+              <a class="link link-adress" href="mailto:info@devstudio.com"
+                >info@devstudio.com
               </a>
             </li>
             <li>

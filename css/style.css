@@ -956,7 +956,7 @@ body {
 
   .menu-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: inline;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -1912,7 +1912,6 @@ body {
 
   .newsletter-form {
     display: flex;
-    flex-direction: column;
     gap: 24px;
   }
 
@@ -2049,17 +2048,14 @@ body {
 
   .header-social-media {
     padding-top: 72px;
-    text-align: center;
+    text-align: left;
   }
 
   .list-footer {
     margin-bottom: 72px;
   }
-
-  .paragraph-newsletter {
-    text-align: center;
-  }
-
+ 
+ 
   .newsletter-button {
     display: inline-flex;
     padding: 8px 24px;
